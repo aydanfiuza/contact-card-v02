@@ -1,0 +1,42 @@
+@media (max-width: 700px) {
+    .main-social {
+        max-width: 500px;
+    }
+
+    .main-social .infos {
+        display: flex;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-social {
+        max-width: 300px;
+    }
+
+    .main-social .div-main {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 1rem;
+    }
+
+    .main-social .div-picture {
+        margin: 0 auto;
+    }
+
+    .main-social .contato {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .main-social .infos {
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-height: 500px) {
+    .footer-social {
+        display: none;
+    }
+}
